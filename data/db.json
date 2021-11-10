@@ -1,5 +1,5 @@
 {
-  "employees": [
+  "employees-sample": [
     {
       "_id": "6182b296a9cbfa3b4ed5e6d5",
       "index": 0,
@@ -179,6 +179,13 @@
       "firstName": "Kate",
       "lastName": "Davenport",
       "gender": "female"
+    }
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "firstName": "Kate",
+      "lastName": "Davenport"
     }
   ]
 }

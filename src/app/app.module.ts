@@ -7,10 +7,16 @@ import {HttpClientModule} from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {CommonModule} from '@angular/common';
+import { GeneratedFormComponent } from './features/generated-form/generated-form.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import { EmployeeListingComponent } from './features/employees/employee-listing/employee-listing.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GeneratedFormComponent,
+    EmployeeListingComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +25,9 @@ import {CommonModule} from '@angular/common';
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
